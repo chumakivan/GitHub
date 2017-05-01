@@ -13,6 +13,7 @@
 		26F0929B1EB7C12300BD0817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F092991EB7C12300BD0817 /* Main.storyboard */; };
 		26F0929D1EB7C12300BD0817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F0929C1EB7C12300BD0817 /* Assets.xcassets */; };
 		26F092A01EB7C12300BD0817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F0929E1EB7C12300BD0817 /* LaunchScreen.storyboard */; };
+		26F092A91EB7C15100BD0817 /* Exmpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F092A81EB7C15100BD0817 /* Exmpl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		26F0929C1EB7C12300BD0817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26F0929F1EB7C12300BD0817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26F092A11EB7C12300BD0817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F092A71EB7C15100BD0817 /* Exmpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exmpl.h; sourceTree = "<group>"; };
+		26F092A81EB7C15100BD0817 /* Exmpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exmpl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				26F0929E1EB7C12300BD0817 /* LaunchScreen.storyboard */,
 				26F092A11EB7C12300BD0817 /* Info.plist */,
 				26F092901EB7C12300BD0817 /* Supporting Files */,
+				26F092A71EB7C15100BD0817 /* Exmpl.h */,
+				26F092A81EB7C15100BD0817 /* Exmpl.m */,
 			);
 			path = Lesson1;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F092A91EB7C15100BD0817 /* Exmpl.m in Sources */,
 				26F092981EB7C12300BD0817 /* ViewController.m in Sources */,
 				26F092951EB7C12300BD0817 /* AppDelegate.m in Sources */,
 				26F092921EB7C12300BD0817 /* main.m in Sources */,
@@ -273,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lesson1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIA.Lesson1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Lesson1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CIA.Lesson1;
 				PRODUCT_NAME = "$(TARGET_NAME)";

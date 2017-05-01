@@ -10,4 +10,6 @@
 
 @interface Exmpl : NSObject
 
+@property NSMutableArray* days;
+
 @end

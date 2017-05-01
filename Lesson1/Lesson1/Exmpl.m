@@ -10,4 +10,13 @@
 
 @implementation Exmpl
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.days = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
+
 @end
