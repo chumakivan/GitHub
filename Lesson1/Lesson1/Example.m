@@ -10,4 +10,13 @@
 
 @implementation Example
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.photos = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
+
 @end

@@ -10,4 +10,6 @@
 
 @interface Example : NSObject
 
+@property NSMutableArray* photos;
+
 @end
