@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26CC7F011EB7C7A4006B9C44 /* Exmpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CC7F001EB7C7A4006B9C44 /* Exmpl.m */; };
 		26F092921EB7C12300BD0817 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F092911EB7C12300BD0817 /* main.m */; };
 		26F092951EB7C12300BD0817 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F092941EB7C12300BD0817 /* AppDelegate.m */; };
 		26F092981EB7C12300BD0817 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F092971EB7C12300BD0817 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26CC7EFF1EB7C7A4006B9C44 /* Exmpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exmpl.h; sourceTree = "<group>"; };
+		26CC7F001EB7C7A4006B9C44 /* Exmpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exmpl.m; sourceTree = "<group>"; };
 		26F0928D1EB7C12300BD0817 /* Lesson1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F092911EB7C12300BD0817 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		26F092931EB7C12300BD0817 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				26F092901EB7C12300BD0817 /* Supporting Files */,
 				26F092AA1EB7C28E00BD0817 /* Example.h */,
 				26F092AB1EB7C28E00BD0817 /* Example.m */,
+				26CC7EFF1EB7C7A4006B9C44 /* Exmpl.h */,
+				26CC7F001EB7C7A4006B9C44 /* Exmpl.m */,
 			);
 			path = Lesson1;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26F092AC1EB7C28E00BD0817 /* Example.m in Sources */,
+				26CC7F011EB7C7A4006B9C44 /* Exmpl.m in Sources */,
 				26F092981EB7C12300BD0817 /* ViewController.m in Sources */,
 				26F092951EB7C12300BD0817 /* AppDelegate.m in Sources */,
 				26F092921EB7C12300BD0817 /* main.m in Sources */,
@@ -317,6 +323,7 @@
 				26F092A61EB7C12300BD0817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
